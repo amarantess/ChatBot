@@ -9,8 +9,22 @@ namespace ChatBot
 {
     public class SuporteTec
     {
-        public string NomeCompleto {  get; set; }
-        public string End {  get; set; }
+        private string _nomeCompleto;
+
+        public string NomeCompleto
+        {
+            get { return _nomeCompleto; }
+            set { _nomeCompleto = value.ToUpper(); }
+        }
+
+        private string _end;
+
+        public string End
+        {
+            get { return _end; }
+            set { _end = value.ToUpper(); }
+        }
+
         public string Cpf {  get; set; }
 
         public void ExecutarTec()
@@ -37,7 +51,7 @@ namespace ChatBot
             {
                 case 1:
                     Console.WriteLine("Primeiro, tente reiniciar seu roteador ao menos 2 vezes.");
-                    Console.WriteLine("Se o problema persistiu, digite Sim");
+                    Console.WriteLine("Se o problema persistiu, digite sim");
                     string resp = Console.ReadLine();
                     if (resp == "Sim" || resp == "sim")
                     {
@@ -46,24 +60,18 @@ namespace ChatBot
                         string respEnd = Console.ReadLine();
                         if (respEnd == "Sim" || respEnd == "sim")
                         {
-                            // new VisitaTec().Executar();
+                            new VisitaTec().Executar();
                         }
-                        else
-                        {
-                            // new ErroDados().Executar();
-                        }
+                        else new ErroDados().Executar();
                     }
-                    else
-                    {
-                        // new Encerrar().Executar();
-                    }
-                    break;
+                    else new Encerrar().Executar(); break;
+
 
 
                 case 2:
                     Console.WriteLine("Certo. Primeiro verifique se todos os cabos estão conectatos de forma correta no roteador.");
                     Console.WriteLine("Além disso, também verifique se ele está devidamente ligado em uma tomada que funcione.");
-                    Console.WriteLine("Caso você tenha feito tudo isso e ainda sim o problema persistiu, digite sim");
+                    Console.Write("Caso você tenha feito tudo isso e ainda sim o problema persistiu, digite sim: ");
                     string resp2 = Console.ReadLine();
                     if (resp2 == "Sim" || resp2 == "sim")
                     {
@@ -72,28 +80,20 @@ namespace ChatBot
                         string respEnd = Console.ReadLine();
                         if (respEnd == "Sim" || respEnd == "sim")
                         {
-                            // new VisitaTec().Executar();
+                            new VisitaTec().Executar();
                         }
-                        else
-                        {
-                            // new ErroDados().Executar();
-                        }
+                        else new ErroDados().Executar();
                     }
-                    else
-                    {
-                        // new Encerrar().Executar();
-                    }
-                    break;
+                    else new Encerrar().Executar(); break;
 
 
                 case 3:
-                    // new Atendente().Executar(); 
-                    break;
+                    new Atendente().Executar(); break;
 
 
                 case 4:
-                    // new Sair().Executar();
-                    break;
+                    new Encerrar().Executar(); break;
+
             }
         }
     }
