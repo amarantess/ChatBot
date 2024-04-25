@@ -18,7 +18,7 @@ namespace ChatBot
 
         // Em breve adicionar mais opções
         Inicio:
-            Console.WriteLine("Olá. Você está no suporte online da Iluminado Fibra.");
+            Login.Executar();
             Console.WriteLine("Escolha uma das opções abaixo:");
             Console.WriteLine("1: Preciso de suporte técnico");
             Console.WriteLine("2: Preciso de suporte financeiro");

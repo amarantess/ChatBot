@@ -9,37 +9,9 @@ namespace ChatBot
 {
     public class SuporteTec
     {
-        private string _nomeCompleto;
-
-        public string NomeCompleto
-        {
-            get { return _nomeCompleto; }
-            set { _nomeCompleto = value.ToUpper(); }
-        }
-
-        private string _end;
-
-        public string End
-        {
-            get { return _end; }
-            set { _end = value.ToUpper(); }
-        }
-
-        public string Cpf {  get; set; }
-
         public void ExecutarTec()
         {
-            Console.WriteLine("Olá. Bem vindo ao suporte técnico online.");
-            Console.WriteLine("Para começarmos, primeiro nos forneça algumas informações.");
-            Console.Write("Digite seu nome completo: ");
-            NomeCompleto = Console.ReadLine();
-            Console.Write("Digite seu CPF: ");
-            Cpf = Console.ReadLine();
-            Console.Write("Digite seu endereço: ");
-            End = Console.ReadLine();
-            Console.WriteLine();
-
-            Console.WriteLine($"{this.NomeCompleto}, Escolha uma das opções abaixo.");
+            Console.WriteLine($"{Login.Nome}, Escolha uma das opções abaixo.");
             Console.WriteLine("1: Minha internet não está funcionando.");
             Console.WriteLine("2: Meu roteador não liga.");
             Console.WriteLine("3: Desejo falar com um atendente da Iluminado Fibra.");
@@ -51,12 +23,12 @@ namespace ChatBot
             {
                 case 1:
                     Console.WriteLine("Primeiro, tente reiniciar seu roteador ao menos 2 vezes.");
-                    Console.WriteLine("Se o problema persistiu, digite sim");
+                    Console.Write("Se o problema persistiu, digite sim: ");
                     string resp = Console.ReadLine();
                     if (resp == "Sim" || resp == "sim")
                     {
                         Console.WriteLine("Certo. Iremos agendar um atendimento presencial de um técnico.");
-                        Console.WriteLine($"Confirme seu endereço digitando sim: {this.End}");
+                        Console.WriteLine($"Confirme seu endereço digitando sim: {Login.End}");
                         string respEnd = Console.ReadLine();
                         if (respEnd == "Sim" || respEnd == "sim")
                         {
@@ -76,7 +48,7 @@ namespace ChatBot
                     if (resp2 == "Sim" || resp2 == "sim")
                     {
                         Console.WriteLine("Certo. Iremos agendar um atendimento presencial de um técnico.");
-                        Console.WriteLine($"Confirme seu endereço digitando sim: {this.End}");
+                        Console.WriteLine($"Confirme seu endereço digitando sim: {Login.End}");
                         string respEnd = Console.ReadLine();
                         if (respEnd == "Sim" || respEnd == "sim")
                         {
