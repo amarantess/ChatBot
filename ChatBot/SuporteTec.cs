@@ -27,7 +27,7 @@ namespace ChatBot
                     string resp = Console.ReadLine();
                     if (resp == "Sim" || resp == "sim")
                     {
-                        Console.WriteLine("Certo. Iremos agendar um atendimento presencial de um técnico.");
+                        Console.WriteLine("\nCerto. Iremos agendar um atendimento presencial de um técnico.");
                         Console.WriteLine($"Confirme seu endereço digitando sim: {Login.End}");
                         string respEnd = Console.ReadLine();
                         if (respEnd == "Sim" || respEnd == "sim")

@@ -19,10 +19,11 @@ namespace ChatBot
         // Em breve adicionar mais opções
         Inicio:
             Login.Executar();
-            Console.WriteLine("Escolha uma das opções abaixo:");
-            Console.WriteLine("1: Preciso de suporte técnico");
-            Console.WriteLine("2: Preciso de suporte financeiro");
-            Console.WriteLine("3: Sair");
+            Console.WriteLine($"\n{Login.Nome}, Escolha uma das opções abaixo.");
+            Console.WriteLine("1: Preciso de suporte técnico.");
+            Console.WriteLine("2: Preciso de suporte financeiro.");
+            Console.WriteLine("3: Quero falar com um atendente.");
+            Console.WriteLine("4: Sair.");
             int opcao = int.Parse(Console.ReadLine());
             Console.Clear();
 
@@ -33,7 +34,9 @@ namespace ChatBot
                 case 2:
                     Console.WriteLine(); break; // Adicionar método Suporte Financeiro
                 case 3:
-                    Console.WriteLine(); break; // Adicionar método Saida
+                    new Atendente().Executar(); break;
+                case 4:
+                    new Encerrar().Executar(); break;
                 default:
                     Console.WriteLine("Opção inválida. Tente novamente.");
                     goto Inicio;
