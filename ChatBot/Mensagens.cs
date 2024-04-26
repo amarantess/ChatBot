@@ -32,7 +32,7 @@ namespace ChatBot
                 case 1:
                     new SuporteTec().ExecutarTec(); break;
                 case 2:
-                    Console.WriteLine(); break; // Adicionar método Suporte Financeiro
+                    new SuporteFinanceiro().ExecutarFinanceiro(); break;
                 case 3:
                     new Atendente().Executar(); break;
                 case 4:

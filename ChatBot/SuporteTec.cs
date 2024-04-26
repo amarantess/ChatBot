@@ -9,6 +9,7 @@ namespace ChatBot
 {
     public class SuporteTec
     {
+        // Método para executar a opção de suporte técnico
         public void ExecutarTec()
         {
             Console.WriteLine($"{Login.Nome}, Escolha uma das opções abaixo.");

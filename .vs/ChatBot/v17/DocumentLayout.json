@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|c:\\users\\gaabr\\onedrive\\desktop\\git\\chatbot\\chatbot\\mensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\mensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\chatbot\\suportetec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\suportetec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\chatbot\\instrucoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\instrucoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\chatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|c:\\users\\gaabr\\onedrive\\desktop\\git\\chatbot\\chatbot\\mensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\mensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|c:\\users\\gaabr\\onedrive\\desktop\\git\\chatbot\\chatbot\\suportefinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\suportefinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\chatbot\\suportetec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F5F7A4-F09E-47B2-B1AF-FD83E9579B94}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\suportetec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,52 +42,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Mensagens.cs",
               "DocumentMoniker": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\Mensagens.cs",
               "RelativeDocumentMoniker": "ChatBot\\Mensagens.cs",
               "ToolTip": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\Mensagens.cs",
               "RelativeToolTip": "ChatBot\\Mensagens.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAABWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T20:35:40.634Z",
+              "WhenOpened": "2024-04-26T17:46:51.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SuporteFinanceiro.cs",
+              "DocumentMoniker": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\SuporteFinanceiro.cs",
+              "RelativeDocumentMoniker": "ChatBot\\SuporteFinanceiro.cs",
+              "ToolTip": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\SuporteFinanceiro.cs",
+              "RelativeToolTip": "ChatBot\\SuporteFinanceiro.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:29:00.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Instrucoes.cs",
               "DocumentMoniker": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\Instrucoes.cs",
               "RelativeDocumentMoniker": "ChatBot\\Instrucoes.cs",
               "ToolTip": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\Instrucoes.cs",
               "RelativeToolTip": "ChatBot\\Instrucoes.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwDMAAAAJAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T17:47:03.747Z"
+              "WhenOpened": "2024-04-24T17:47:03.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SuporteTec.cs",
               "DocumentMoniker": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\SuporteTec.cs",
               "RelativeDocumentMoniker": "ChatBot\\SuporteTec.cs",
               "ToolTip": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\SuporteTec.cs",
               "RelativeToolTip": "ChatBot\\SuporteTec.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwD4AAAA2AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:36:10.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\Program.cs",
-              "RelativeDocumentMoniker": "ChatBot\\Program.cs",
-              "ToolTip": "C:\\Users\\gaabr\\OneDrive\\Desktop\\Git\\ChatBot\\ChatBot\\Program.cs",
-              "RelativeToolTip": "ChatBot\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:52:03.13Z"
+              "WhenOpened": "2024-04-23T02:36:10.239Z",
+              "EditorCaption": ""
             }
           ]
         }

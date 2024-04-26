@@ -58,6 +58,14 @@ namespace ChatBot
             get { return _end; }
             set { _end = value.ToUpper(); }
         }
+        private static string _email;
+
+        public static string Email
+        {
+            get { return _email; }
+            set { _email = value.ToLower(); }
+        }
+
 
         public static string Cpf {  get; set; }
 
@@ -69,6 +77,8 @@ namespace ChatBot
             Nome = Console.ReadLine();
             Console.Write("Digite seu CPF: ");
             Cpf = Console.ReadLine();
+            Console.Write("Digite seu email: ");
+            Email = Console.ReadLine();
             Console.Write("Digite seu endereço: ");
             End = Console.ReadLine();
         }
